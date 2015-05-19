@@ -15,13 +15,13 @@ if [[ -z $SNAME ]]; then
 SNAME=$WNAME
 fi
 
-xcodebuild -workspace $WNAME.xcworkspace -scheme $SNAME clean build | tee xcodebuild.log
+xcodebuild -workspace $WNAME.xcworkspace -scheme $SNAME clean build
 oclint-xcodebuild
 
 #Create oclint report
-oclint-json-compilation-database -- -report-type html -o report.html 
-
+oclint-json-compilation-database -- -report-type html -o report.html -rc=LONG_LINE=120
 echo "Report was created as report.html in your project directory."
+open report.html
 
 elif [ $TYPE == "p" ]; then 
 read -p "Enter your project name: " PNAME
@@ -31,13 +31,14 @@ if [[ -z $PSNAME ]]; then
 PSNAME=$PNAME
 fi
 
-xcodebuild -workspace $PNAME.xcodeproj -scheme $PSNAME clean build | tee xcodebuild.log
+xcodebuild -workspace $PNAME.xcodeproj -scheme $PSNAME clean build
 oclint-xcodebuild
 
 #Create oclint report
-oclint-json-compilation-database -- -report-type html -o report.html 
+oclint-json-compilation-database -- -report-type html -o report.html -rc=LONG_LINE=120
 
 echo "Report was created as report.html in your project directory."
+open report.html
 
 else 
   echo "You entered an invalid character."
