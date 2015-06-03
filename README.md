@@ -1,6 +1,9 @@
 # xcode-buildscripts
 Collection of shell scripts to include in your Xcode project.
 
+Feel free to contribute !
+This repository should be a great collection of useful build scripts.
+
 ##Setup
 
 1. Open your Xcode project
@@ -52,3 +55,10 @@ Formats your code everytime you build your project.
 **Installation**
 See here on how to add this feature to your current Xcode installation.
 [https://github.com/octo-online/Xcode-formatter](Xcode-formatter)
+
+##Contact
+Something is not working ?
+Please file a ticket here on github.
+
+If you want to get in touch with me because of another reason you can leave me a message at [mailto:dehlen@me.com](dehlen@me.com) or on twitter [https://twitter.com/da_eh](@da_eh).
+
