@@ -10,8 +10,9 @@ Collection of shell scripts to include in your Xcode project.
 5. Click on the little "plus"-icon and select `New Run Script Phase` or go to `Editor->Add Build Phase->Add Run Script Build Phase`
 6. Copy the script in the textarea and build your project
 
+Alternatively have a look at this website for detailed picture description: [http://www.runscriptbuildphase.com/](runscriptbuildphase.com)
 
-##Installation
+##Scripts
 
 
 ###oclint-run-script
@@ -43,3 +44,11 @@ Shows all your `//TODO` and `//FIXME` comments as warnings in the Xcode issue na
 
 **Installation:**
 No need to install anything.
+
+###code-formatter
+**Information**
+Formats your code everytime you build your project.
+
+**Installation**
+See here on how to add this feature to your current Xcode installation.
+[https://github.com/octo-online/Xcode-formatter](Xcode-formatter)
