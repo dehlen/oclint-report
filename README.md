@@ -30,9 +30,16 @@ brew install https://gist.githubusercontent.com/TonyAnhTran/e1522b93853c5a456b74
 
 Then run the script from your projects root directory to create a report html.
 
-###total lines of code
+###totalLOC
 **Information:**
 Shows the total number of lines of code of your project. To get this information all `.h` and `.m` files are counted.
 
 **Installation:**
 No need to install anything since wc is included on all UNIX platforms.
+
+###todo-fixme
+**Information:**
+Shows all your `//TODO` and `//FIXME` comments as warnings in the Xcode issue navigator.
+
+**Installation:**
+No need to install anything.
