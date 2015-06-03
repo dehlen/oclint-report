@@ -54,7 +54,7 @@ Formats your code everytime you build your project.
 
 **Installation**
 See here on how to add this feature to your current Xcode installation.
-(https://github.com/octo-online/Xcode-formatter)[Xcode-formatter]
+[Xcode-formatter](https://github.com/octo-online/Xcode-formatter/)
 
 ##Contact
 Something is not working ?
