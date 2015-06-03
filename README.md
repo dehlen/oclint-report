@@ -25,7 +25,7 @@ Generates a static code analysis of your project and shows the warnings in your 
 **Installation:**
 Quick start to create an oclint-report for your xcode workspace or project. 
 You need to install oclint to use this script.
-You can do this via their offical website: [http://oclint.org/](oclint)
+You can do this via their offical website: (http://oclint.org/)[oclint]
 or via homebrew: 
 
 ```
@@ -54,11 +54,11 @@ Formats your code everytime you build your project.
 
 **Installation**
 See here on how to add this feature to your current Xcode installation.
-[https://github.com/octo-online/Xcode-formatter](Xcode-formatter)
+(https://github.com/octo-online/Xcode-formatter)[Xcode-formatter]
 
 ##Contact
 Something is not working ?
 Please file a ticket here on github.
 
-If you want to get in touch with me because of another reason you can leave me a message at [mailto:dehlen@me.com](dehlen@me.com) or on twitter [https://twitter.com/da_eh](@da_eh).
+If you want to get in touch with me because of another reason you can leave me a message at (mailto:dehlen@me.com)[dehlen@me.com] or on twitter (https://twitter.com/da_eh)[@da_eh].
 
